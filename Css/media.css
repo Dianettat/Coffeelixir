@@ -1,0 +1,484 @@
+@media (max-width:768px)
+{
+    .body {
+        margin: 0;
+    }
+    /*Index*/
+    .header {
+        height: 70px;
+    }
+
+    .menu-hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+    } 
+
+    .logo {
+        display: none;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .basket {
+        display: block;
+        position: absolute;
+        align-items: end;
+        width: 30px;
+        height: 33px;
+        right: 20px;
+        top: 15px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+
+    .button {
+        font-size: 20px;
+        width: 150px;
+        height: 45px;
+    }
+
+    .block {
+        height: 600px;
+    }
+    .columns {
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .col1, .col2 {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .hight {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .text-content {
+        margin-right: 0;
+    }
+
+    .second-title {
+        margin: 30px;
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-top: 0;
+        height: 200px;
+    }
+
+    .ft {
+        font-size: 16px;
+    }
+
+    .q {
+        font-size: 16px;
+    }
+
+    .footer1 {
+        justify-content: center;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .menu-ft {
+        display: none;
+    }
+
+    /*Catalog*/
+    .catalog {
+        height: 2100px;
+        padding: 0 50px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 160px;
+    }
+
+    .row1 {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .row2 {
+        flex-direction: column;
+        position:absolute;
+        left: 365px;
+        margin-top: 0;
+    }
+
+    /*Subscription*/
+    .subscription {
+        height: 2080px;
+    }
+
+    .sub-right {
+        display: none;
+    }
+
+    .sub {
+        padding: 0 50px 144px 50px;
+        height: 700px;
+    }
+
+    .sub-button {
+        margin-top: 150px;
+    }
+
+    .sub-main {
+        padding: 0 50px;
+        height: 1000px;
+    }
+
+    .sub-cards {
+        flex-direction: column;
+    }
+
+    .sub-card {
+        width: 86vw;
+        height: 40vh;
+    }
+
+    .sub-footer {
+        padding: 0 50px;
+    }
+
+    /*Recipes*/
+    .recipes {
+        padding: 0 50px;
+        margin-top: 0;
+        height: 2150px;
+    }
+
+    .rec-1 {
+        flex-direction: column;
+    }
+
+    .rec-2 {
+        flex-direction: column;
+    }
+
+    .article-card {
+        width: 88vw;
+        height: 440px;
+    }
+
+    .left {
+        padding: 70px 0 0 0;
+    }
+
+    /*Delivery*/
+    .delivery {
+        padding: 0 50px;
+        height: 750px;
+    }
+
+    .delivery-foto {
+        width: 400px;
+        height: 300px;
+    }
+
+    .delivery-col2 {
+        margin-left: 10px;
+        margin-top: 20px;  
+    }
+
+    .delivery-columns {
+       margin-top: 10px;
+    }
+
+    .col-text {
+        font-size: 14px;
+    }
+
+    .delivery-text {
+        flex-direction: column;
+    }
+
+    .delivery-second-title {
+        font-size: 20px;
+    }
+
+    /*Reviews*/
+    .reviews {
+        padding: 20px 50px;
+        height: 607px;
+    }
+    
+    .carousel {
+        width: 87vw;
+    }
+    
+}  
+
+
+@media (max-width:320px)
+{
+    .header {
+        height: 70px;
+    }
+
+    .basket {
+        right: 20px;
+        top: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .title {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .left {
+        padding-top: 30px;
+    }
+    .button {
+        margin-top: 60px;
+    }
+
+    .btn {
+        right: 80px;
+        margin-top: 200px;
+    }
+    .main {
+        width: 100%;
+        padding: 0 14px;
+        height: 430px;
+    }
+
+    .block {
+        width: 100%;
+        padding: 0 14px;
+    }
+
+    .col1, .col2 {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .ft {
+        font-size: 12px;
+    }
+
+    .q {
+        font-size: 12px;
+    }
+
+    .footer {
+        height: 180px;
+    }
+
+    .footer2 {
+        width: 200px;
+        padding: 0;
+        position: relative;
+        right: 35px;
+    }
+
+    p {
+        font-size: 12px; 
+    }
+
+    /*Catalog*/
+    .catalog {
+        height: 2650px;
+        padding: 0 14px;
+    }
+
+    .card {
+        width: 90vw;
+        height: 300px;
+    }
+
+    .cards {
+        margin-top: 80px;
+    }
+
+    .row1 {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .row2 {
+        flex-direction: column;
+        position:relative;
+        left: 0;
+        margin-top: 1280px;
+    }
+
+    /*Subscription*/
+    .subscription {
+        height: 2040px;
+    }
+
+    .sub-right {
+        display: none;
+    }
+
+    .sub {
+        padding: 40px 12px 144px 12px;
+        height: 450px;
+    }
+
+    .sub-header {
+        font-size: 24px;
+    }
+
+    .sub-button {
+        margin-top: 250px;
+    }
+
+    .sub-main {
+        padding: 0 12px;
+        margin-top: 20px;
+    }
+
+    .sub-button {
+        margin-top: 80px;
+        font-size: 16px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .sub-cards {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .sub-card {
+        width: 92vw;
+        height: 45vh;
+    }
+
+    .sub-footer {
+        padding: 0 12px;
+        margin-top: 40px;
+    }
+
+    .stitle {
+        font-size: 28px; 
+    }
+
+    /*Recipes*/
+    .article-card {
+        width: 92vw;
+        height: 350px;
+    }
+
+    .article-card img {
+        display: none;
+    }
+
+    .recipes {
+        padding: 0 12px;
+        height: 1725px;
+    }
+
+    .article-card .content {
+        margin: 0;
+    }
+
+
+    /*Delivery*/
+    .delivery {
+        padding: 0 12px;
+        height: 600px;
+    }
+
+    .delivery-foto {
+        width: 260px;
+        height: 300px;
+    }
+
+    .delivery-col2 {
+        margin-left: 0;
+        margin-top: 20px;  
+    }
+
+    .delivery-columns {
+       margin-top: 5px;
+       width: 250px;
+    }
+
+    .col-text {
+        font-size: 12px;
+    }
+
+    .delivery-col1 {
+        margin-top: 10px;
+    }
+
+    /*Reviews*/
+    .reviews {
+        padding: 0 12px;
+        height: 1250px;
+    }
+    
+    .carousel {
+        width: 90vw;
+    }
+
+    .carousel-img {
+        display: none;
+    }
+
+    .hidden-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .hidden {
+        padding-bottom: 30px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+
+    .carousel {
+        display: none;
+    }
+    
+}
