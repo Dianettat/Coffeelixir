@@ -924,8 +924,16 @@ button {
 }
 
 .sub-footer {
-    padding-bottom: 150px; /* Добавляем отступ снизу */
-    position: relative;
+    min-height: calc(100vh - 400px); /* Занимает как минимум высоту экрана минус высота других блоков */
+    padding-bottom: 300px;
+    box-sizing: border-box;
+}
+
+body::after {
+    content: '';
+    display: block;
+    height: 200px;
+    background: transparent;
 }
 
 .faq {
@@ -968,3 +976,4 @@ button {
     position: relative;
     background: #1B1B1B;
 }
+
